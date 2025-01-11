@@ -2,6 +2,9 @@ body {
     font-family: "Roboto", serif;
 }
 
+* {
+    font-family: "Roboto", serif;
+}
 
 .images-2-container {
     display: flex;
@@ -22,6 +25,8 @@ ul {
     margin: 0;
     gap: 20px;
     align-items: center;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 ul > li {
@@ -30,5 +35,46 @@ ul > li {
 
 .header-logo {
     font-size: 24px;
+    font-weight: 900;
+}
+
+.section-1 {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    padding: 100px 0px;
+    gap: 20px;
+}
+
+.text-section {
+    width: 50%;
+}
+
+.image {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    color: #f9f9f9;
+}
+
+.text-section > p {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.text-section > h2 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.text-section > button {
+    padding: 5px 20px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 5px;
     font-weight: 900;
 }
