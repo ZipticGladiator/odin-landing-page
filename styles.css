@@ -1,5 +1,7 @@
 body {
     font-family: "Roboto", serif;
+    display: flex;
+    flex-direction: column;
 }
 
 * {
@@ -102,4 +104,62 @@ ul > li {
     color: #1f2937;
     font-size: 36px;
     font-weight: 900;
+}
+
+.section-3 {
+    text-align: center;
+    background-color: #e5e7eb;
+    padding: 50px 0px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.section-4 {
+    padding: 35px 0px;
+}
+
+.section-4-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 35px 35px;
+}
+
+.cta {
+    margin: 0px;
+}
+
+.subtext {
+    margin-top: 10px;
+    font-weight: lighter;
+}
+
+.cta-btn {
+    border: 1px solid #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 6px 18px;
+    margin: auto 0px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.footer > p {
+    padding: 20px;
 }
