@@ -2,6 +2,7 @@ body {
     font-family: "Roboto", serif;
     display: flex;
     flex-direction: column;
+    margin: auto;
 }
 
 * {
@@ -44,7 +45,7 @@ ul > li {
     background-color: #1f2937;
     color: #f9faf8;
     display: flex;
-    padding: 100px 0px;
+    padding: 100px 50px;
     gap: 20px;
 }
 
@@ -109,7 +110,7 @@ ul > li {
 .section-3 {
     text-align: center;
     background-color: #e5e7eb;
-    padding: 50px 0px;
+    padding: 50px 50px;
 }
 
 .quote {
@@ -126,7 +127,7 @@ ul > li {
 }
 
 .section-4 {
-    padding: 35px 0px;
+    padding: 35px 50px;
 }
 
 .section-4-container {
